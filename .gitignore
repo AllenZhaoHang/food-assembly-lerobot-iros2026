@@ -205,3 +205,55 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- ROS / colcon / catkin ---
+build/
+devel/
+install/
+log/
+.colcon*
+CATKIN_IGNORE
+
+# --- Python / Conda ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+.env
+.env.*
+.conda/
+*.ipynb_checkpoints
+
+# --- C++ / Bazel (如用到) ---
+*.o
+*.a
+*.out
+bazel-*
+
+# --- Datasets / Checkpoints / Artifacts ---
+data/
+datasets/
+outputs/
+runs/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+wandb/
+mlruns/
+tensorboard/
+event*.*
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# --- Notebooks large outputs ---
+*.nbconvert.ipynb
